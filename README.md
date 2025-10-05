@@ -1,4 +1,4 @@
-# Joel Jang's Website (based on Junmo Kang's template)
+# Guijin Son's Website
 
 ## Updates guide
 Change one of the files in `_data`, unless you are changing the look of the website.
