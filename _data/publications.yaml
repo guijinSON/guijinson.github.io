@@ -1,4 +1,22 @@
 papers:
+  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
+    year: "Preprint"
+    authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, Dasol Choi, Kyong-Ha Lee, Youngjae Yu"
+    venue: "Preprint Under Review"
+    selected: y
+    
+  - title: "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research"
+    authors: "<b><u>Guijin Son</u></b>, Jiwoo Hong, Honglu Fan, Heejeong Nam, Hyunwoo Ko, Seungwon Lim, Jinyeop Song, Jinha Choi, Gonçalo Paulo, Youngjae Yu, Stella Biderman"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/pdf/2505.11855.pdf"
+    selected: y
+
+  - title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
+    authors: "<b><u>Guijin Son</u></b>*, Dongkeun Yoon*, Juyoung Suk, Javier Aula-Blasco, Mano Aslan, Vu Trong Kim, Shayekh Bin Islam, Jaume Prats-Cristià, Lucía Tormo-Bañuelos, Seungone Kim"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
+    selected: y
+
   - title: "From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation"
     authors: "Seokhee Hong, Sunkyoung Kim, <b><u>Guijin Son</u></b>, Soyeon Kim, Yeonjung Hong, Jinsik Lee"
     year: 2025
@@ -8,56 +26,49 @@ papers:
 
   - title: "Multi-LMentry: Can Multilingual LLMs Solve Elementary Tasks Across Languages?"
     authors: "Luca Moroni, Javier Aula-Blasco, Simone Conia, Irene Baucells, Naiara Perez, Silvia Paniagua Suárez, Anna Sallés, Malte Ostendorff, Júlia Falcão, <b><u>Guijin Son</u></b>, Aitor Gonzalez-Agirre, Roberto Navigli, Marta Villegas"
-    year: 2025
     venue: "EMNLP 2025"
     paper_pdf: "https://openreview.net/forum?id=ZNz4vC3EAb"
     selected: y
 
   - title: "On the Robustness of Reward Models for Language Model Alignment"
     authors: "Jiwoo Hong, Noah Lee, Eunki Kim, <b><u>Guijin Son</u></b>, Woojin Chung, Aman Gupta, Shao Tang, James Thorne"
-    year: 2025
     venue: "ICML 2025"
     paper_pdf: "https://arxiv.org/pdf/2505.07271.pdf"
     selected: y
     
   - title: "FINKRX: Establishing Best Practices for Korean Financial NLP"
     authors: "<b><u>Guijin Son</u></b>, Hyunwoo Ko, Hanearl Jung, Chami Hwang"
-    year: 2025
     venue: "ACL 2025 Industry Track"
     paper_pdf: "https://aclanthology.org/2025.acl-industry.81.pdf"
     selected: y
 
   - title: "Linguistic Generalizability of Test-Time Scaling in Mathematical Reasoning"
     authors: "<b><u>Guijin Son</u></b>, Jiwoo Hong, Hyunwoo Ko, James Thorne"
-    year: 2025
     venue: "ACL 2025 (Oral)"
     paper_pdf: "https://aclanthology.org/2025.acl-long.699.pdf"
     selected: y
 
   - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
     authors: "<b><u>Guijin Son</u></b>, Hanwool Lee, Sungdong Kim, Seungone Kim, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
-    year: 2025
     venue: "NAACL 2025"
     paper_pdf: "https://aclanthology.org/2025.naacl-long.206.pdf"
     selected: y
 
   - title: "The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models"
     authors: "Seungone Kim, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, <b><u>Guijin Son</u></b>, Yejin Cho, Sheikh Shafayat, Jinheon Baek, Sue Hyun Park, Hyeonbin Hwang, Jinkyung Jo, Hyowon Cho, Haebin Shin, Seongyun Lee, Hansoek Oh, Noah Lee, Namgyu Ho, Se June Joo, Miyoung Ko, Yoonjoo Lee, Hyungjoo Chae, Jamin Shin, Joel Jang, Seonghyeon Ye, Bill Yuchen Lin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
-    year: 2025
     venue: "NAACL 2025 (Best Paper)"
     paper_pdf: "https://aclanthology.org/2025.naacl-long.303.pdf"
     selected: y
 
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
     authors: "<b><u>Guijin Son</u></b>, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, Seungone Kim"
-    year: 2025
+    year: 2024
     venue: "ACL 2024"
     paper_pdf: "https://aclanthology.org/2024.acl-long.304.pdf"
     selected: y
 
   - title: "HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models"
     authors: "<b><u>Guijin Son</u></b>, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Yeom, Jihyu Jung, Jung Woo Kim, Songseong Kim"
-    year: 2024
     venue: "LREC-COLING 2024"
     paper_pdf: "https://aclanthology.org/2024.lrec-main.704.pdf"
     selected: y
