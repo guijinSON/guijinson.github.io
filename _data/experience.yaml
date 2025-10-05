@@ -11,12 +11,6 @@ experiences:
     subtitle: "Worked on building multilingual mathematical reasoning."
     category: "work"
 
-  - place: "Yonsei University (UIC)"
-    time: "Mar 2020 - Feb 2025"
-    title: "B.A. in Economics"
-    subtitle: ""
-    category: "school"
-
   - place: "Qraft Technologies"
     time: "Jul 2022 - Feb 2023"
     title: "Researcher"
@@ -34,3 +28,10 @@ experiences:
     title: "Research Intern"
     subtitle: "Reinforcement learning for order execution in stock trading"
     category: "work"
+
+
+  - place: "Yonsei University"
+    time: "Mar 2020 - Feb 2025"
+    title: "B.A. in Economics"
+    subtitle: ""
+    category: "school"
