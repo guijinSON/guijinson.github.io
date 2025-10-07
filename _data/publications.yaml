@@ -3,6 +3,7 @@ papers:
     year: "Preprint"
     authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, Dasol Choi, Kyong-Ha Lee, Youngjae Yu"
     venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/pdf/2510.04230"
     selected: y
     
   - title: "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research"
