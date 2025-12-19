@@ -9,7 +9,7 @@ experiences:
     time: "Dec 2024 - Mar 2025"
     title: "Research Intern  (Mentor: Jiwoo Hong)"
     subtitle: "Worked on building multilingual mathematical reasoning."
-    category: "work"
+    category: "school"
 
   - place: "Qraft Technologies"
     time: "Jul 2022 - Feb 2023"
@@ -33,5 +33,11 @@ experiences:
   - place: "Yonsei University"
     time: "Mar 2020 - Feb 2025"
     title: "B.A. in Economics"
+    subtitle: ""
+    category: "school"
+
+  - place: "Seoul National University"
+    time: "Feb 2026 - Present"
+    title: "MS/PhD in Computer Science"
     subtitle: ""
     category: "school"
