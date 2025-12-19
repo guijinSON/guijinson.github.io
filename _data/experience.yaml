@@ -1,4 +1,10 @@
 experiences:
+  - place: "Seoul National University"
+    time: "Feb 2026 - Present"
+    title: "MS/PhD in Computer Science"
+    subtitle: ""
+    category: "school"
+    
   - place: "OneLineAI"
     time: "Mar 2023 - Present"
     title: "Co-founder & AI Researcher"
@@ -29,15 +35,8 @@ experiences:
     subtitle: "Reinforcement learning for order execution in stock trading"
     category: "work"
 
-
   - place: "Yonsei University"
     time: "Mar 2020 - Feb 2025"
     title: "B.A. in Economics"
-    subtitle: ""
-    category: "school"
-
-  - place: "Seoul National University"
-    time: "Feb 2026 - Present"
-    title: "MS/PhD in Computer Science"
     subtitle: ""
     category: "school"
