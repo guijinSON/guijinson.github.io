@@ -1,4 +1,11 @@
 papers:
+  - title: "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models"
+    year: "Preprint"
+    authors: Dasol Choi, <b><u>Guijin Son</u></b>, Hanwool Lee, Minhyuk Kim, Hyunwoo Ko, Teabin Lim, Ahn Eungyeol, Jungwhan Kim, Seunghyeok Hong, Youngsook Song"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2601.06165"
+    selected: y
+    
   - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
     year: "Preprint"
     authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, Dasol Choi, Kyong-Ha Lee, Youngjae Yu"
