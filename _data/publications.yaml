@@ -7,7 +7,6 @@ papers:
     selected: y
     
   - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
-    year: "Preprint"
     authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, Dasol Choi, Kyong-Ha Lee, Youngjae Yu"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/pdf/2510.04230"
