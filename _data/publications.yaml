@@ -1,29 +1,12 @@
 papers:
-  - title: "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models"
-    year: "Preprint"
-    authors: Dasol Choi, <b><u>Guijin Son</u></b>, Hanwool Lee, Minhyuk Kim, Hyunwoo Ko, Teabin Lim, Ahn Eungyeol, Jungwhan Kim, Seunghyeok Hong, Youngsook Song"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2601.06165"
-    selected: y
-    
+
   - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
     authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, Dasol Choi, Kyong-Ha Lee, Youngjae Yu"
-    venue: "Preprint Under Review"
+    venue: "ICLR 2026"
+    year: 2026
     paper_pdf: "https://arxiv.org/pdf/2510.04230"
     selected: y
     
-  - title: "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research"
-    authors: "<b><u>Guijin Son</u></b>, Jiwoo Hong, Honglu Fan, Heejeong Nam, Hyunwoo Ko, Seungwon Lim, Jinyeop Song, Jinha Choi, Gonçalo Paulo, Youngjae Yu, Stella Biderman"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/pdf/2505.11855.pdf"
-    selected: y
-
-  - title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
-    authors: "<b><u>Guijin Son</u></b>*, Dongkeun Yoon*, Juyoung Suk, Javier Aula-Blasco, Mano Aslan, Vu Trong Kim, Shayekh Bin Islam, Jaume Prats-Cristià, Lucía Tormo-Bañuelos, Seungone Kim"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
-    selected: y
-
   - title: "From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation"
     authors: "Seokhee Hong, Sunkyoung Kim, <b><u>Guijin Son</u></b>, Soyeon Kim, Yeonjung Hong, Jinsik Lee"
     year: 2025
@@ -78,6 +61,25 @@ papers:
     authors: "<b><u>Guijin Son</u></b>, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Yeom, Jihyu Jung, Jung Woo Kim, Songseong Kim"
     venue: "LREC-COLING 2024"
     paper_pdf: "https://aclanthology.org/2024.lrec-main.704.pdf"
+    selected: y
+    
+  - title: "What Users Leave Unsaid: Under-Specified Queries Limit Vision-Language Models"
+    year: "Preprint"
+    authors: Dasol Choi, <b><u>Guijin Son</u></b>, Hanwool Lee, Minhyuk Kim, Hyunwoo Ko, Teabin Lim, Ahn Eungyeol, Jungwhan Kim, Seunghyeok Hong, Youngsook Song"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2601.06165"
+    selected: y
+    
+  - title: "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research"
+    authors: "<b><u>Guijin Son</u></b>, Jiwoo Hong, Honglu Fan, Heejeong Nam, Hyunwoo Ko, Seungwon Lim, Jinyeop Song, Jinha Choi, Gonçalo Paulo, Youngjae Yu, Stella Biderman"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/pdf/2505.11855.pdf"
+    selected: y
+
+  - title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
+    authors: "<b><u>Guijin Son</u></b>*, Dongkeun Yoon*, Juyoung Suk, Javier Aula-Blasco, Mano Aslan, Vu Trong Kim, Shayekh Bin Islam, Jaume Prats-Cristià, Lucía Tormo-Bañuelos, Seungone Kim"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
     selected: y
 
 
