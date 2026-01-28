@@ -6,6 +6,7 @@ papers:
     year: 2026
     paper_pdf: "https://arxiv.org/pdf/2510.04230"
     selected: y
+
     
   - title: "From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation"
     authors: "Seokhee Hong, Sunkyoung Kim, <b><u>Guijin Son</u></b>, Soyeon Kim, Yeonjung Hong, Jinsik Lee"
