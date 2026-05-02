@@ -1,10 +1,10 @@
 papers:
 
-  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
-    authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, Dasol Choi, Kyong-Ha Lee, Youngjae Yu"
-    venue: "ICLR 2026"
+  - title: "Judging What We Cannot Solve: A Consequence-Based Approach for Oracle-Free Evaluation of Research-Level Math"
+    authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Hyunwoo Ko, Amit Agarwal, Sunghee Ahn, Kyong-Ha Lee, Youngjae Yu"
+    venue: "ICML 2026 (Spotlight)"
     year: 2026
-    paper_pdf: "https://arxiv.org/pdf/2510.04230"
+    paper_pdf: "https://arxiv.org/abs/2602.06291"
     selected: y
 
   - title: "Revisiting the Uniform Information Density Hypothesis in LLM Reasoning Traces"
@@ -25,16 +25,16 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2503.22968"
     selected: y
 
+  - title: "Pushing on Multilingual Reasoning Models with Language-Mixed Chain-of-Thought"
+    authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Amit Agarwal, Hyunwoo Ko, Chanuk Lim, Srikant Panda, Minhyuk Kim, Nikunj Drolia, Dasol Choi, Kyong-Ha Lee, Youngjae Yu"
+    venue: "ICLR 2026"
+    paper_pdf: "https://arxiv.org/pdf/2510.04230"
+    selected: y
+
   - title: "KMMMU: Evaluation of Massive Multi-discipline Multimodal Understanding in Korean Language and Context"
     authors: "Nahyun Lee, <b><u>Guijin Son</u></b>, Hyunwoo Ko, Chanyoung Kim, JunYoung An, Kyubeen Han, Il-Youp Kwak"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2604.13058"
-    selected: y
-
-  - title: "Judging What We Cannot Solve: A Consequence-Based Approach for Oracle-Free Evaluation of Research-Level Math"
-    authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Hyunwoo Ko, Amit Agarwal, Sunghee Ahn, Kyong-Ha Lee, Youngjae Yu"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2602.06291"
     selected: y
 
   - title: "From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation"
@@ -80,21 +80,27 @@ papers:
     paper_pdf: "https://aclanthology.org/2025.naacl-long.303.pdf"
     selected: y
 
-  - title: "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research"
-    authors: "<b><u>Guijin Son</u></b>, Jiwoo Hong, Honglu Fan, Heejeong Nam, Hyunwoo Ko, Seungwon Lim, Jinyeop Song, Jinha Choi, Gonçalo Paulo, Youngjae Yu, Stella Biderman"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/pdf/2505.11855.pdf"
-    selected: y
-
   - title: "BenchHub: A Unified Benchmark Suite for Holistic and Customizable LLM Evaluation"
     authors: "Eunsu Kim, Haneul Yoo, <b><u>Guijin Son</u></b>, Hitesh Patel, Amit Agarwal, Alice Oh"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2506.00482"
     selected: y
 
+  - title: "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research"
+    authors: "<b><u>Guijin Son</u></b>, Jiwoo Hong, Honglu Fan, Heejeong Nam, Hyunwoo Ko, Seungwon Lim, Jinyeop Song, Jinha Choi, Gonçalo Paulo, Youngjae Yu, Stella Biderman"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/pdf/2505.11855.pdf"
+    selected: y
+
+  - title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
+    authors: "<b><u>Guijin Son</u></b>*, Dongkeun Yoon*, Juyoung Suk, Javier Aula-Blasco, Mano Aslan, Vu Trong Kim, Shayekh Bin Islam, Jaume Prats-Cristià, Lucía Tormo-Bañuelos, Seungone Kim"
+    year: 2024
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
+    selected: y
+
   - title: "Multi-Task Inference: Can Large Language Models Follow Multiple Instructions at Once?"
     authors: "<b><u>Guijin Son</u></b>, Sangwon Baek, Sangdae Nam, Ilgyun Jeong, Seungone Kim"
-    year: 2024
     venue: "ACL 2024"
     paper_pdf: "https://aclanthology.org/2024.acl-long.304.pdf"
     selected: y
@@ -103,10 +109,4 @@ papers:
     authors: "<b><u>Guijin Son</u></b>, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Yeom, Jihyu Jung, Jung Woo Kim, Songseong Kim"
     venue: "LREC-COLING 2024"
     paper_pdf: "https://aclanthology.org/2024.lrec-main.704.pdf"
-    selected: y
-
-  - title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
-    authors: "<b><u>Guijin Son</u></b>*, Dongkeun Yoon*, Juyoung Suk, Javier Aula-Blasco, Mano Aslan, Vu Trong Kim, Shayekh Bin Islam, Jaume Prats-Cristià, Lucía Tormo-Bañuelos, Seungone Kim"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
     selected: y
