@@ -1,9 +1,21 @@
 papers:
 
+  - title: "LaRA: Layer-wise Representation Analysis for Detecting Data Contamination in RL Post-Training"
+    authors: "Minju Gwak, Minseo Kwak, Dongseok Lee, <b><u>Guijin Son</u></b>, Alan Ritter, Jaehyung Kim"
+    venue: "EMNLP 2026 (Findings)"
+    year: 2026
+    paper_pdf: "https://arxiv.org/abs/2605.29888"
+    selected: y
+
+  - title: "K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts"
+    authors: "Nahyun Lee, Dongkeun Yoon, <b><u>Guijin Son</u></b>, Geewook Kim, Dayoon Ko, Jeonghun Park, Haneul Yoo, Jaewon Cho, Junghun Park, Changyoon Lee, Kyochul Jang, Jaeyeon Kim, Eunsu Kim, Seungone Kim"
+    venue: "EMNLP 2026 (Findings)"
+    paper_pdf: "https://arxiv.org/abs/2606.02404"
+    selected: y
+
   - title: "Judging What We Cannot Solve: A Consequence-Based Approach for Oracle-Free Evaluation of Research-Level Math"
     authors: "<b><u>Guijin Son</u></b>, Donghun Yang, Hitesh Laxmichand Patel, Hyunwoo Ko, Amit Agarwal, Sunghee Ahn, Kyong-Ha Lee, Youngjae Yu"
     venue: "ICML 2026 (Spotlight)"
-    year: 2026
     paper_pdf: "https://arxiv.org/abs/2602.06291"
     selected: y
 
