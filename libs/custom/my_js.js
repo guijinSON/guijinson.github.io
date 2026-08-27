@@ -6,7 +6,7 @@ $(document).ready(function() {
       $body = $('body'),
       $window = $(window),
       $popoverLink = $('[data-popover]'),
-      navOffsetTop = $nav.offset().top,
+      navOffsetTop = $nav.length ? $nav.offset().top : 0,
       $document = $(document),
       entityMap = {
         "&": "&amp;",
@@ -18,8 +18,10 @@ $(document).ready(function() {
       }
 
   function init() {
-    $window.on('scroll', onScroll)
-    $window.on('resize', resize)
+    if($nav.length) {
+      $window.on('scroll', onScroll)
+      $window.on('resize', resize)
+    }
     $popoverLink.on('click', openPopover)
     $document.on('click', closePopover)
     $('a[href^="#"]').on('click', smoothScroll)
