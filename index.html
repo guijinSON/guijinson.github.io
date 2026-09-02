@@ -61,8 +61,34 @@ layout: default
      I got admitted as an MS & PhD integrated student at Seoul National University. I will be continuing my research at <a href="https://pi.snu.ac.kr/" target="_blank">SNU PI Lab</a> advised by <a href="https://yj-yu.github.io/home/" target="_blank">Youngjae Yu</a>
   </div>
 
+  <style>
+    .news-more { margin-top: 10px; }
+    .news-more > summary {
+      display: inline-block;
+      cursor: pointer;
+      list-style: none;
+      padding: 4px 14px;
+      border: 1.5px solid #fa8072;
+      border-radius: 999px;
+      color: #fa8072;
+      font-weight: 600;
+      font-size: 0.9em;
+      line-height: 1.6;
+      user-select: none;
+      outline: none;
+      transition: background .15s, color .15s;
+    }
+    .news-more > summary::-webkit-details-marker { display: none; }
+    .news-more > summary:hover { background: #fa8072; color: #fff; }
+    .news-more > summary::before { content: "\25BE\00a0\00a0"; }
+    .news-more[open] > summary::before { content: "\25B4\00a0\00a0"; }
+    .news-more > summary .txt-open { display: none; }
+    .news-more[open] > summary .txt-open { display: inline; }
+    .news-more[open] > summary .txt-closed { display: none; }
+    .news-more[open] > summary { margin-bottom: 8px; }
+  </style>
   <details class="news-more">
-    <summary>Show older news</summary>
+    <summary><span class="txt-closed">Show older news</span><span class="txt-open">Hide older news</span></summary>
   
   <div class="col-12 col-md-12 text-md-left no-padding">
     <b class="bbold" style="color:#fa8072;">Nov 2025</b>&nbsp;&nbsp;&nbsp;&nbsp;

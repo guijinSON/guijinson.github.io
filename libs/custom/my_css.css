@@ -191,17 +191,3 @@ h4 {
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
-/* Collapsible older news */
-.news-more { margin-top: 6px; }
-.news-more > summary {
-  cursor: pointer;
-  color: #fa8072;
-  font-weight: 600;
-  list-style: none;
-  outline: none;
-  user-select: none;
-}
-.news-more > summary::-webkit-details-marker { display: none; }
-.news-more > summary::before { content: "\25B8  "; }
-.news-more[open] > summary::before { content: "\25BE  "; }
-.news-more[open] > summary { margin-bottom: 4px; }
