@@ -158,11 +158,35 @@ layout: default
     <li><div class="button" data-ref="#papers-all">All</div></li>
   </ul> -->
 
+  <style>
+    .pub-filter { margin: 4px 0 14px; }
+    .pub-filter .pill {
+      display: inline-block; cursor: pointer; user-select: none;
+      padding: 4px 14px; margin-right: 6px;
+      border: 1.5px solid #fa8072; border-radius: 999px;
+      color: #fa8072; font-weight: 600; font-size: 0.9em; line-height: 1.6;
+      transition: background .15s, color .15s;
+    }
+    .pub-filter .pill:hover, .pub-filter .pill.active { background: #fa8072; color: #fff; }
+    .pub-hidden { display: none !important; }
+  </style>
+  <div class="pub-filter">
+    <span class="pill active" data-filter="all">All</span>
+    <span class="pill" data-filter="first">First author</span>
+  </div>
+
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% assign cur_year = "" %}
       {% for paper in selected_papers %}
-        <div class="paper">
+        {% if paper.year %}
+          {% assign cur_year = paper.year %}
+          <div class="pub-year" data-year="{{ cur_year }}"><hr /><h5>{{ cur_year }}</h5></div>
+        {% endif %}
+        {% assign lead = paper.authors | strip | slice: 0, 24 %}
+        {% if lead == "<b><u>Guijin Son</u></b>" %}{% assign is_first = "y" %}{% else %}{% assign is_first = "n" %}{% endif %}
+        <div class="paper" data-year="{{ cur_year }}" data-first="{{ is_first }}">
           <div class="row">
             <!--
             <div class="four columns">
@@ -172,9 +196,6 @@ layout: default
             </div>
             -->
             <div class="twelve columns">
-              {% if paper.year %}
-                <p><h5>{{ paper.year }}</h5><hr /></p>
-              {% endif %}
               <p class="title"><b>{{ paper.title }}</b></p>
               <p>{{ paper.authors }}</p>
               <p><i>{{ paper.venue }}</i></p>
@@ -209,6 +230,30 @@ layout: default
       {% endfor %}
       <h6><b><i>( * indicates equal contribution )</i></b></h6>
     </div>
+    <script>
+      (function () {
+        var pills = document.querySelectorAll('.pub-filter .pill');
+        var papers = document.querySelectorAll('#papers-selected .paper');
+        var years = document.querySelectorAll('#papers-selected .pub-year');
+        function apply(mode) {
+          var visibleYears = {};
+          papers.forEach(function (p) {
+            var show = mode === 'all' || p.getAttribute('data-first') === 'y';
+            p.classList.toggle('pub-hidden', !show);
+            if (show) visibleYears[p.getAttribute('data-year')] = true;
+          });
+          years.forEach(function (y) {
+            y.classList.toggle('pub-hidden', !visibleYears[y.getAttribute('data-year')]);
+          });
+          pills.forEach(function (b) {
+            b.classList.toggle('active', b.getAttribute('data-filter') === mode);
+          });
+        }
+        pills.forEach(function (b) {
+          b.addEventListener('click', function () { apply(b.getAttribute('data-filter')); });
+        });
+      })();
+    </script>
     
     <!-- <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
