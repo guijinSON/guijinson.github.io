@@ -62,24 +62,13 @@ layout: default
   </div>
 
   <style>
-    .news-more { margin-top: 10px; }
+    .news-more { margin-top: 8px; }
     .news-more > summary {
-      display: inline-block;
-      cursor: pointer;
-      list-style: none;
-      padding: 4px 14px;
-      border: 1.5px solid #fa8072;
-      border-radius: 999px;
-      color: #fa8072;
-      font-weight: 600;
-      font-size: 0.9em;
-      line-height: 1.6;
-      user-select: none;
-      outline: none;
-      transition: background .15s, color .15s;
+      display: inline-block; cursor: pointer; list-style: none; user-select: none; outline: none;
+      color: rgba(0, 0, 0, 0.55); font-size: 0.95em;
     }
     .news-more > summary::-webkit-details-marker { display: none; }
-    .news-more > summary:hover { background: #fa8072; color: #fff; }
+    .news-more > summary:hover { color: #000; }
     .news-more > summary::before { content: "\25BE\00a0\00a0"; }
     .news-more[open] > summary::before { content: "\25B4\00a0\00a0"; }
     .news-more > summary .txt-open { display: none; }
@@ -149,7 +138,13 @@ layout: default
 </div>
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h5>Publications</h5>
+  <h5 class="pub-heading">Publications
+    <span class="pub-filter">
+      <span class="pill active" data-filter="all">All</span>
+      <span class="sep">/</span>
+      <span class="pill" data-filter="first">First author</span>
+    </span>
+  </h5>
 
   <!-- <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/></p> -->
 
@@ -159,21 +154,13 @@ layout: default
   </ul> -->
 
   <style>
-    .pub-filter { margin: 4px 0 14px; }
-    .pub-filter .pill {
-      display: inline-block; cursor: pointer; user-select: none;
-      padding: 4px 14px; margin-right: 6px;
-      border: 1.5px solid #fa8072; border-radius: 999px;
-      color: #fa8072; font-weight: 600; font-size: 0.9em; line-height: 1.6;
-      transition: background .15s, color .15s;
-    }
-    .pub-filter .pill:hover, .pub-filter .pill.active { background: #fa8072; color: #fff; }
+    .pub-filter { display: inline-block; margin-left: 16px; font-size: 1.4rem; font-weight: 400; vertical-align: middle; letter-spacing: 0; line-height: 1; }
+    .pub-filter .pill { cursor: pointer; user-select: none; color: rgba(0, 0, 0, 0.45); padding-bottom: 1px; }
+    .pub-filter .pill:hover { color: #000; }
+    .pub-filter .pill.active { color: #000; font-weight: 600; border-bottom: 1.5px solid #000; }
+    .pub-filter .sep { color: rgba(0, 0, 0, 0.3); margin: 0 6px; }
     .pub-hidden { display: none !important; }
   </style>
-  <div class="pub-filter">
-    <span class="pill active" data-filter="all">All</span>
-    <span class="pill" data-filter="first">First author</span>
-  </div>
 
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
