@@ -169,7 +169,7 @@ layout: default
       {% for paper in selected_papers %}
         {% if paper.year %}
           {% assign cur_year = paper.year %}
-          <div class="pub-year" data-year="{{ cur_year }}"><hr /><h5>{{ cur_year }}</h5></div>
+          <div class="pub-year" data-year="{{ cur_year }}"><h5>{{ cur_year }}</h5></div>
         {% endif %}
         {% assign lead = paper.authors | strip | slice: 0, 24 %}
         {% if lead == "<b><u>Guijin Son</u></b>" %}{% assign is_first = "y" %}{% else %}{% assign is_first = "n" %}{% endif %}
