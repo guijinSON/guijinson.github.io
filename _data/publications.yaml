@@ -1,9 +1,21 @@
 papers:
 
+  - title: "ResearchMath-14K: Scaling Research-Level Mathematics via Agents"
+    authors: "<b><u>Guijin Son</u></b>, Seungyeop Yi, Minju Gwak, Hyunwoo Ko, Wongi Jang, Youngjae Yu"
+    venue: "Preprint (Under Review)"
+    year: 2026
+    paper_pdf: "https://arxiv.org/abs/2605.28003"
+    selected: y
+
+  - title: "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-Level Math Capabilities of LLMs"
+    authors: "<b><u>Guijin Son</u></b>, Seungone Kim, Catherine Arnett, Hyunwoo Ko, Hyein Lee, Hyeonah Kang, Jiang Longxi, Jin Yun, JungYup Lee, Kyungmin Lee, Sam Yoosuk Kim, Sang Park, Seunghyeok Hong, SeungJae Lee, Seungyeop Yi, Shinae Shin, SunHye Bok, Sunyoung Shin, Yonghoon Ji, Youngtaek Kim, Hanearl Jung, Akari Asai, Graham Neubig, Sean Welleck, Youngjae Yu, Alexander B. Ivanov, Boboev Muhammadjon, Chae Young Han, Christian Stump, Cooper R. Anderson, Dmitrii Karp, Dohyun Kwon, Dongryung Yi, DoYong Kwon, Duk-Soon Oh, Eunho Choi, Giovanni Resta, Greta Panova, Huiyun Noh, Hyungryul Baik, Hyungsun Bae, Inomov Mashrafdzhon, Jeewon Kim, Jeong-Rae Kim, Ji Eun Lee, Jiaqi Liu, Jieui Kang, Jimin Kim, Jon-Lark Kim, Joonyeong Won, Junseo Yoon, Junwoo Jo, Kibeom Kim, Kiwoon Kwon, Mario Kummer, Max Mercer, Min Hoon Kim, Minjun Kim, Nahyun Lee, Ng Ze-An, Nicolas Libedinsky, Rafał Marcin Łochowski, Raphaël Lachièze-Rey, Robert Auffarth, Ruichen Zhang, Sejin Park, Seonguk Seo, Shin Jaehoon, Taewoong Eom, Yeachan Park, Yongseok Jang, Youchan Oh, Zhaoyang Wang, Zoltán Kovács"
+    venue: "Preprint (Under Review)"
+    paper_pdf: "https://arxiv.org/abs/2605.09063"
+    selected: y
+
   - title: "LaRA: Layer-wise Representation Analysis for Detecting Data Contamination in RL Post-Training"
     authors: "Minju Gwak, Minseo Kwak, Dongseok Lee, <b><u>Guijin Son</u></b>, Alan Ritter, Jaehyung Kim"
     venue: "EMNLP 2026 (Findings)"
-    year: 2026
     paper_pdf: "https://arxiv.org/abs/2605.29888"
     selected: y
 
