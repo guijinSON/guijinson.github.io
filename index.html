@@ -140,9 +140,9 @@ layout: default
 <div class="docs-section" id="publications">
   <h5 class="pub-heading">Publications
     <span class="pub-filter">
-      <span class="pill active" data-filter="all">All</span>
+      <span class="pill active" data-filter="first">First author</span>
       <span class="sep">/</span>
-      <span class="pill" data-filter="first">First author</span>
+      <span class="pill" data-filter="all">All</span>
     </span>
   </h5>
 
@@ -239,6 +239,7 @@ layout: default
         pills.forEach(function (b) {
           b.addEventListener('click', function () { apply(b.getAttribute('data-filter')); });
         });
+        apply('first');
       })();
     </script>
     
