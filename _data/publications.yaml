@@ -9,13 +9,13 @@ papers:
 
   - title: "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-Level Math Capabilities of LLMs"
     authors: "<b><u>Guijin Son</u></b>, Seungone Kim, Catherine Arnett, Hyunwoo Ko, Hyein Lee, Hyeonah Kang, Jiang Longxi, Jin Yun, JungYup Lee, Kyungmin Lee, Sam Yoosuk Kim, Sang Park, Seunghyeok Hong, SeungJae Lee, Seungyeop Yi, Shinae Shin, SunHye Bok, Sunyoung Shin, Yonghoon Ji, Youngtaek Kim, Hanearl Jung, Akari Asai, Graham Neubig, Sean Welleck, Youngjae Yu, Alexander B. Ivanov, Boboev Muhammadjon, Chae Young Han, Christian Stump, Cooper R. Anderson, Dmitrii Karp, Dohyun Kwon, Dongryung Yi, DoYong Kwon, Duk-Soon Oh, Eunho Choi, Giovanni Resta, Greta Panova, Huiyun Noh, Hyungryul Baik, Hyungsun Bae, Inomov Mashrafdzhon, Jeewon Kim, Jeong-Rae Kim, Ji Eun Lee, Jiaqi Liu, Jieui Kang, Jimin Kim, Jon-Lark Kim, Joonyeong Won, Junseo Yoon, Junwoo Jo, Kibeom Kim, Kiwoon Kwon, Mario Kummer, Max Mercer, Min Hoon Kim, Minjun Kim, Nahyun Lee, Ng Ze-An, Nicolas Libedinsky, Rafał Marcin Łochowski, Raphaël Lachièze-Rey, Robert Auffarth, Ruichen Zhang, Sejin Park, Seonguk Seo, Shin Jaehoon, Taewoong Eom, Yeachan Park, Yongseok Jang, Youchan Oh, Zhaoyang Wang, Zoltán Kovács"
-    venue: "NeurIPS 2026 (Datasets & Benchmarks)"
+    venue: "NeurIPS 2026 (Evaluations & Datasets)"
     paper_pdf: "https://arxiv.org/abs/2605.09063"
     selected: y
 
   - title: "Global PIQA: Evaluating Commonsense Reasoning Across 100+ Languages and Cultures"
     authors: "Tyler A. Chang, Catherine Arnett, ... <b><u>Guijin Son</u></b>, ... et al. (300+ authors)"
-    venue: "NeurIPS 2026 (Datasets & Benchmarks)"
+    venue: "NeurIPS 2026 (Evaluations & Datasets)"
     paper_pdf: "https://arxiv.org/abs/2510.24081"
     selected: y
 
@@ -112,7 +112,7 @@ papers:
 
   - title: "BenchHub: A Unified Benchmark Suite for Holistic and Customizable LLM Evaluation"
     authors: "Eunsu Kim, Haneul Yoo, <b><u>Guijin Son</u></b>, Hitesh Patel, Amit Agarwal, Alice Oh"
-    venue: "NeurIPS 2026 (Datasets & Benchmarks)"
+    venue: "NeurIPS 2026 (Evaluations & Datasets)"
     paper_pdf: "https://arxiv.org/abs/2506.00482"
     selected: y
 
