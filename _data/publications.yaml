@@ -19,6 +19,12 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2510.24081"
     selected: y
 
+  - title: "BenchHub: A Unified Benchmark Suite for Holistic and Customizable LLM Evaluation"
+    authors: "Eunsu Kim, Haneul Yoo, <b><u>Guijin Son</u></b>, Hitesh Patel, Amit Agarwal, Alice Oh"
+    venue: "NeurIPS 2026 (Evaluations & Datasets)"
+    paper_pdf: "https://arxiv.org/abs/2506.00482"
+    selected: y
+
   - title: "LaRA: Layer-wise Representation Analysis for Detecting Data Contamination in RL Post-Training"
     authors: "Minju Gwak, Minseo Kwak, Dongseok Lee, <b><u>Guijin Son</u></b>, Alan Ritter, Jaehyung Kim"
     venue: "EMNLP 2026 (Findings)"
@@ -108,12 +114,6 @@ papers:
     authors: "Seungone Kim, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, <b><u>Guijin Son</u></b>, Yejin Cho, Sheikh Shafayat, Jinheon Baek, Sue Hyun Park, Hyeonbin Hwang, Jinkyung Jo, Hyowon Cho, Haebin Shin, Seongyun Lee, Hansoek Oh, Noah Lee, Namgyu Ho, Se June Joo, Miyoung Ko, Yoonjoo Lee, Hyungjoo Chae, Jamin Shin, Joel Jang, Seonghyeon Ye, Bill Yuchen Lin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "NAACL 2025 (Best Paper)"
     paper_pdf: "https://aclanthology.org/2025.naacl-long.303.pdf"
-    selected: y
-
-  - title: "BenchHub: A Unified Benchmark Suite for Holistic and Customizable LLM Evaluation"
-    authors: "Eunsu Kim, Haneul Yoo, <b><u>Guijin Son</u></b>, Hitesh Patel, Amit Agarwal, Alice Oh"
-    venue: "NeurIPS 2026 (Evaluations & Datasets)"
-    paper_pdf: "https://arxiv.org/abs/2506.00482"
     selected: y
 
   - title: "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research"
